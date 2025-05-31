@@ -27,3 +27,8 @@
 - to remove docker image type: docker image rmi image-id
 - to remove all docker images type: docker image prune
 - run container and when container will be exit, it will be automatically deleted and type: docker run -p 5000:5000 --rm image-id
+- to build docker container with tag name type: docker build -t docker-typescript:1 .
+  -to run docker container with tag name type: docker run -p 5000:5000 --rm REPOSITORY:tag
+  example: docker run -p 5000:5000 --rm docker-typescript:1
+- to run docker container with giving custom name type: docker run -p 5000:5000 --rm --name docker-app docker-typescript:1
+- to remove docker all images when it has repository name and tag type: docker image prune -a
