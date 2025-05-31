@@ -21,3 +21,8 @@
 - to get docker build related help type: docker build --help
 - to get docker run related help type: docker run --helps
 - to get docker related help type: docker --helps
+- to see docker images type docker images
+- to remove docker container type: docker container rm docker-container-name
+- to remove all docker container type: docker container prune
+- to remove docker image type: docker image rmi image-id
+- to remove all docker images type: docker image prune
