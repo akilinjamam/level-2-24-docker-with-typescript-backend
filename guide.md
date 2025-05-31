@@ -10,8 +10,13 @@
 - to run docker container copy docker image id and type:
   4th: docker run -p 5000:5000 image-id
 
+- to run docker container (with dittached mode) copy docker image id and type:
+  4th: docker run -p 5000:5000 -d image-id
+
 - to stock docker container and type:
   5th: docker container stop copy-name-of-image
+
+  -to run docker container with attached mode type: docker container -a name-of-image
 
 - to get docker build related help type: docker build --help
 - to get docker run related help type: docker run --helps
