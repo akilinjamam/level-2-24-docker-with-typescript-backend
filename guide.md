@@ -26,3 +26,4 @@
 - to remove all docker container type: docker container prune
 - to remove docker image type: docker image rmi image-id
 - to remove all docker images type: docker image prune
+- run container and when container will be exit, it will be automatically deleted and type: docker run -p 5000:5000 --rm image-id
